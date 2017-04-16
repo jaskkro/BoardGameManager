@@ -97,7 +97,7 @@
     </scripts>
   </scripts>
   <objects name="objects">
-    <object>objects\object0</object>
+    <object>objects\obj_UIController</object>
     <object>objects\object1</object>
     <object>objects\object2</object>
     <object>objects\object3</object>
@@ -139,10 +139,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_newGameSession</room>
     <room>rooms\rm_login</room>
     <room>rooms\rm_newAccount</room>
     <room>rooms\rm_mainMenu</room>
-    <room>rooms\rm_newGameSession</room>
     <room>rooms\rm_joinSession</room>
     <room>rooms\rm_partySystem</room>
     <room>rooms\rm_indProfile</room>
