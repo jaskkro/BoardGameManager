@@ -50,7 +50,14 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances/>
+  <instances>
+    <instance objName="ui_button" x="64" y="64" name="inst_57C3A423" locked="0" code="uiTextValue = &quot;Back&quot;;&#xA;uiControlName = &quot;ui_backButton_addTool&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;&#xA;" scaleX="5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_label" x="128" y="224" name="inst_8D0F93EE" locked="0" code="uiTextValue = &quot;Tool Name&quot;;&#xA;uiControlName = &quot;ui_label_toolName&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_label" x="128" y="384" name="inst_84942E8A" locked="0" code="uiTextValue = &quot;Number of Outcomes&quot;;&#xA;uiControlName = &quot;ui_label_outcomes&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_textbox" x="320" y="224" name="inst_71E60C7C" locked="0" code="&#xA;uiControlName = &quot;ui_textField_toolName&quot;&#xA;&#xA;" scaleX="11" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_textbox" x="320" y="384" name="inst_2E897CE4" locked="0" code="&#xA;uiControlName = &quot;ui_textField_outcomes&quot;&#xA;&#xA;" scaleX="11" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_button" x="192" y="928" name="inst_35037F4D" locked="0" code="uiTextValue = &quot;Add to Game Profile&quot;;&#xA;uiControlName = &quot;ui_button_addGameProfile&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;&#xA;" scaleX="13" scaleY="2" colour="4294967295" rotation="0"/>
+  </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
