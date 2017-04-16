@@ -146,11 +146,11 @@
     <room>rooms\rm_joinSession</room>
     <room>rooms\rm_partySystem</room>
     <room>rooms\rm_indProfile</room>
-    <room>rooms\room6</room>
-    <room>rooms\room8</room>
-    <room>rooms\room10</room>
-    <room>rooms\room9</room>
-    <room>rooms\room11</room>
+    <room>rooms\rm_gameProfile</room>
+    <room>rooms\rm_gameProfile_2</room>
+    <room>rooms\rm_gameProfile_3</room>
+    <room>rooms\rm_gameProfile_3_a</room>
+    <room>rooms\rm_gameProfile_3_b</room>
     <room>rooms\room12</room>
     <room>rooms\room13</room>
     <room>rooms\room14</room>
