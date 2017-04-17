@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bkr_main" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -50,7 +50,13 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances/>
+  <instances>
+    <instance objName="ui_button" x="64" y="64" name="inst_6694FB38" locked="0" code="uiTextValue = &quot;Back&quot;;&#xA;uiControlName = &quot;ui_backButton_newSession&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;&#xA;" scaleX="5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_label" x="256" y="160" name="inst_A78177AC" locked="0" code="uiTextValue = &quot;Session Name&quot;;&#xA;uiControlName = &quot;ui_label_sessionName&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;&#xA;" scaleX="7" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_label" x="256" y="256" name="inst_AD7A78EE" locked="0" code="uiTextValue = &quot;Player Name&quot;;&#xA;uiControlName = &quot;ui_label_playerName&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;&#xA;" scaleX="7" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_label" x="256" y="416" name="inst_82A93CA9" locked="0" code="uiTextValue = &quot;Player Stats&quot;;&#xA;uiControlName = &quot;ui_label_playerStats&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;&#xA;" scaleX="7.22580623626709" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_listbox" x="96" y="512" name="inst_6020C281" locked="0" code="&#xA;uiControlName = &quot;ui_listbox_playerStats&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;&#xA;" scaleX="18" scaleY="21" colour="4294967295" rotation="0"/>
+  </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
