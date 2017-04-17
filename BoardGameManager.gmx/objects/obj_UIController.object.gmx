@@ -48,6 +48,10 @@ if (other.uiControlName = 'ui_gotoGameProfiles') {
     room_goto(8);
 }
 
+if (other.uiControlName = 'ui_joinASessionButton') {
+    room_goto(4);
+}
+
 //New Profile Screen
 if (other.uiControlName = 'ui_buttonAddTool') {
     room_goto(9);
@@ -61,6 +65,39 @@ if (other.uiControlName = 'ui_buttonPremadeTools') {
 if (other.uiControlName = 'ui_buttonCustomTool') {
     room_goto(11);
 }
+
+//Create Session
+if (other.uiControlName = 'ui_createSessionButton') {
+    room_goto(12);
+}
+
+//Join a Session
+if (other.uiControlName = 'ui_finishedJoiningButton') {
+    room_goto(12);
+}
+
+//Main Game Screen
+if (other.uiControlName = 'ui_gotoToolSelect') {
+    room_goto(13);
+}
+
+//Use Tool Screen
+if (other.uiControlName = 'ui_useToolsButton') {
+    show_message("Tool 1: 3 | Tool 2: 12 | Tool 3: 4");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 </string>
           </argument>
         </arguments>

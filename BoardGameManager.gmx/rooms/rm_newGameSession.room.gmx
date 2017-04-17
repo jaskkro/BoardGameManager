@@ -58,10 +58,10 @@
     <instance objName="ui_label" x="128" y="672" name="inst_9A9C7667" locked="0" code="uiTextValue=&quot;Session Password&quot;;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ui_textbox" x="256" y="288" name="inst_4D7455A9" locked="0" code="" scaleX="11" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ui_textbox" x="256" y="416" name="inst_D1B5C3AC" locked="0" code="" scaleX="11" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="ui_textbox" x="256" y="544" name="inst_9070F74C" locked="0" code="" scaleX="11" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ui_textbox" x="256" y="672" name="inst_0AFBA774" locked="0" code="" scaleX="11" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="ui_button" x="224" y="1056" name="inst_33CBEC8D" locked="0" code="uiTextValue=&quot;Create Session&quot;;&#xA;uiControlName='ui_createSessionButton';&#xA;uiEventObject = obj_UIController;&#xA;" scaleX="10" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_button" x="224" y="1056" name="inst_33CBEC8D" locked="0" code="uiTextValue=&quot;Create Session&quot;;&#xA;uiControlName='ui_createSessionButton';&#xA;uiEventObject = obj_UIController;" scaleX="10" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ui_button" x="64" y="64" name="inst_323AFF1A" locked="0" code="uiTextValue = &quot;Back&quot;;&#xA;uiControlName = &quot;ui_backButton_newSession&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;&#xA;" scaleX="5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_combobox" x="256" y="544" name="inst_CA8BA89C" locked="0" code="uiTextValue='Select a Profile';&#xA;items[0]='Magic the Gathering';&#xA;items[1]='DnD';&#xA;items[2]='DnD New';&#xA;" scaleX="11" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

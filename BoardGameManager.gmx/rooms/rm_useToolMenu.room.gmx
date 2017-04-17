@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bkr_main" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -50,7 +50,18 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances/>
+  <instances>
+    <instance objName="ui_label" x="320" y="128" name="inst_8F57FF6D" locked="0" code="uiTextValue=&quot;Session Name&quot;;&#xA;&#xA;" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ui_combobox" x="96" y="352" name="inst_A09BECA8" locked="0" code="uiTextValue='Select a Tool';&#xA;items[0]='Coin';&#xA;items[1]='D6';&#xA;items[2]='D8';&#xA;items[3]='D12';&#xA;items[4]='D20';&#xA;" scaleX="8" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_combobox" x="96" y="480" name="inst_F050A8AB" locked="0" code="uiTextValue='Select a Tool';&#xA;items[0]='Coin';&#xA;items[1]='D6';&#xA;items[2]='D8';&#xA;items[3]='D12';&#xA;items[4]='D20';&#xA;" scaleX="8" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_combobox" x="96" y="608" name="inst_DC7813DF" locked="0" code="uiTextValue='Select a Tool';&#xA;items[0]='Coin';&#xA;items[1]='D6';&#xA;items[2]='D8';&#xA;items[3]='D12';&#xA;items[4]='D20';&#xA;" scaleX="8" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_textbox" x="416" y="352" name="inst_C3A07B77" locked="0" code="" scaleX="6" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_textbox" x="416" y="480" name="inst_1923449E" locked="0" code="" scaleX="6" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_textbox" x="416" y="608" name="inst_2487E889" locked="0" code="" scaleX="6" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_label" x="416" y="288" name="inst_2397C043" locked="0" code="uiTextValue='Number of Rolls';&#xA;&#xA;" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ui_button" x="160" y="1024" name="inst_A31F0C1F" locked="0" code="uiTextValue=&quot;Roll!&quot;;&#xA;uiControlName='ui_useToolsButton';&#xA;uiEventObject = obj_UIController;" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_button" x="64" y="64" name="inst_7637EC22" locked="0" code="uiTextValue = &quot;Back&quot;;&#xA;uiControlName = &quot;ui_backButton_addTool&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;&#xA;" scaleX="5" scaleY="2" colour="4294967295" rotation="0"/>
+  </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

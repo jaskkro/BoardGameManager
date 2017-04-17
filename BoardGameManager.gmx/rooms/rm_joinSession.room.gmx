@@ -50,7 +50,14 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances/>
+  <instances>
+    <instance objName="ui_button" x="64" y="64" name="inst_56B773A3" locked="0" code="uiTextValue = &quot;Back&quot;;&#xA;uiControlName = &quot;ui_backButton_gameProfile&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;" scaleX="5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_label" x="160" y="448" name="inst_05B48D65" locked="0" code="uiTextValue = &quot;Session Name&quot;;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ui_label" x="160" y="576" name="inst_7F8A2349" locked="0" code="uiTextValue = &quot;Session Password&quot;;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ui_textbox" x="320" y="448" name="inst_1D364839" locked="0" code="" scaleX="10" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_textbox" x="320" y="576" name="inst_94CE9776" locked="0" code="" scaleX="10" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_button" x="160" y="1024" name="inst_88CD845E" locked="0" code="uiTextValue=&quot;Attempt to Connect&quot;;&#xA;uiControlName='ui_finishedJoiningButton';&#xA;uiEventObject = obj_UIController;" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
+  </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

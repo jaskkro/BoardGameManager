@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bkr_main" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -50,7 +50,13 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances/>
+  <instances>
+    <instance objName="ui_label" x="320" y="128" name="inst_83A152E0" locked="0" code="uiTextValue=&quot;Session Name&quot;;&#xA;&#xA;" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ui_button" x="160" y="1024" name="inst_73C9869C" locked="0" code="uiTextValue=&quot;End Game&quot;;&#xA;uiControlName='ui_gotoEndGame';&#xA;uiEventObject = obj_UIController;&#xA;" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_button" x="160" y="352" name="inst_614DE813" locked="0" code="uiTextValue=&quot;Player Stats&quot;;&#xA;uiControlName='ui_gotoPlayerStats';&#xA;uiEventObject = obj_UIController;&#xA;" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_button" x="160" y="480" name="inst_2EFB0DC3" locked="0" code="uiTextValue=&quot;Use a Tool&quot;;&#xA;uiControlName='ui_gotoToolSelect';&#xA;uiEventObject = obj_UIController;" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_logo" x="384" y="768" name="inst_A064A0A6" locked="0" code="" scaleX="0.666666686534882" scaleY="0.644144117832184" colour="4294967295" rotation="0"/>
+  </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

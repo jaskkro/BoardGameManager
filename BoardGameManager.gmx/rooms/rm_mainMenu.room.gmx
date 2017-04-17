@@ -56,7 +56,7 @@
     <instance objName="ui_button" x="160" y="352" name="inst_B6231FCD" locked="0" code="uiTextValue=&quot;Load Session&quot;;&#xA;uiControlName='ui_loadSessionButton';&#xA;uiEventObject = obj_UIController;&#xA;" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ui_button" x="160" y="896" name="inst_4C08DFF4" locked="0" code="uiTextValue=&quot;Game Profiles&quot;;&#xA;uiControlName='ui_gotoGameProfiles';&#xA;uiEventObject = obj_UIController;" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ui_button" x="160" y="1024" name="inst_824D073B" locked="0" code="uiTextValue=&quot;Account Settings&quot;;&#xA;uiControlName='ui_gotoAccountSettings';&#xA;uiEventObject = obj_UIController;&#xA;" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="ui_button" x="160" y="480" name="inst_CDAEE748" locked="0" code="uiTextValue=&quot;Join Session&quot;;&#xA;uiControlName='ui_joinASessionButton';&#xA;uiEventObject = obj_UIController;&#xA;" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_button" x="160" y="480" name="inst_CDAEE748" locked="0" code="uiTextValue=&quot;Join Session&quot;;&#xA;uiControlName='ui_joinASessionButton';&#xA;uiEventObject = obj_UIController;" scaleX="14" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_UIController" x="32" y="128" name="inst_37B43F37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

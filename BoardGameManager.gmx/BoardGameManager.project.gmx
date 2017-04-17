@@ -158,8 +158,8 @@
     <room>rooms\rm_gameProfile_3</room>
     <room>rooms\rm_gameProfile_3_a</room>
     <room>rooms\rm_gameProfile_3_b</room>
-    <room>rooms\room12</room>
-    <room>rooms\room13</room>
+    <room>rooms\rm_mainGameRoom</room>
+    <room>rooms\rm_useToolMenu</room>
     <room>rooms\room14</room>
     <room>rooms\room15</room>
     <room>rooms\room16</room>
