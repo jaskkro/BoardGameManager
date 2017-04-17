@@ -4,10 +4,69 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
-  <events/>
+  <events>
+    <event eventtype="7" enumb="10">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//Login Screen
+if (other.uiControlName = 'ui_loginButton') {
+    room_goto(2);
+}
+
+if (other.uiControlName = 'ui_createAccountButton') {
+    room_goto(1);
+}
+
+//Create Account Screen
+if (other.uiControlName = 'ui_createAccountFinalButton') {
+    room_goto(2);
+}
+
+//Main Menu
+if (other.uiControlName = 'ui_createNewSessionButton') {
+    room_goto(3);
+}
+
+if (other.uiControlName = 'ui_gotoGameProfiles') {
+    room_goto(8);
+}
+
+//New Profile Screen
+if (other.uiControlName = 'ui_buttonAddTool') {
+    room_goto(9);
+}
+
+//New Tool Screen
+if (other.uiControlName = 'ui_buttonPremadeTools') {
+    room_goto(10);
+}
+
+if (other.uiControlName = 'ui_buttonCustomTool') {
+    room_goto(11);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>

@@ -82,7 +82,9 @@
       <sprite>sprites\spr_ui</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bkr_main</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="nb_GUI">
@@ -139,10 +141,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_newGameSession</room>
     <room>rooms\rm_login</room>
     <room>rooms\rm_newAccount</room>
     <room>rooms\rm_mainMenu</room>
+    <room>rooms\rm_newGameSession</room>
     <room>rooms\rm_joinSession</room>
     <room>rooms\rm_partySystem</room>
     <room>rooms\rm_indProfile</room>
