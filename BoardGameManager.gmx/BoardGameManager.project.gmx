@@ -81,9 +81,12 @@
     <sprites name="nb_GUI">
       <sprite>sprites\spr_ui</sprite>
     </sprites>
+    <sprite>sprites\banner</sprite>
+    <sprite>sprites\spr_logo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkr_main</background>
+    <background>background\bkr_login</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -139,6 +142,7 @@
       <object>objects\ui_ani_control</object>
       <object>objects\ui_swipe</object>
     </objects>
+    <object>objects\obj_logo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_login</room>
