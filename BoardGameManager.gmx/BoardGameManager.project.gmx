@@ -145,7 +145,6 @@
     <object>objects\obj_logo</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_editStat</room>
     <room>rooms\rm_login</room>
     <room>rooms\rm_newAccount</room>
     <room>rooms\rm_mainMenu</room>
@@ -168,6 +167,7 @@
     <room>rooms\room19</room>
     <room>rooms\rm_sessionProfiles</room>
     <room>rooms\rm_individProfile</room>
+    <room>rooms\rm_editStat</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

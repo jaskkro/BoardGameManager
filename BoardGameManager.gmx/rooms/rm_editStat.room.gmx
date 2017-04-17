@@ -53,7 +53,7 @@
   <instances>
     <instance objName="ui_button" x="64" y="64" name="inst_60E5F074" locked="0" code="uiTextValue = &quot;Back&quot;;&#xA;uiControlName = &quot;ui_backButton_newSession&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;&#xA;" scaleX="5" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ui_label" x="160" y="256" name="inst_7DD85F1F" locked="0" code="uiTextValue = &quot;New Value&quot;;&#xA;uiControlName = &quot;ui_label_newValue&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;&#xA;" scaleX="5" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="ui_textbox" x="384" y="256" name="inst_27F4B122" locked="0" code="&#xA;uiControlName = &quot;ui_textbox_newValue&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;&#xA;" scaleX="9" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="ui_textbox" x="384" y="256" name="inst_27F4B122" locked="0" code="" scaleX="9" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ui_button" x="256" y="480" name="inst_F29C3256" locked="0" code="uiTextValue = &quot;Submit&quot;;&#xA;uiControlName = &quot;ui_button_submit&quot;&#xA;uiEventObject = &quot;obj_UIController&quot;;&#xA;" scaleX="8" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

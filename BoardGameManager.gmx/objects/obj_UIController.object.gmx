@@ -81,9 +81,18 @@ if (other.uiControlName = 'ui_gotoToolSelect') {
     room_goto(13);
 }
 
+if (other.uiControlName = 'ui_gotoPlayerStats') {
+    room_goto(20);
+}
+
 //Use Tool Screen
 if (other.uiControlName = 'ui_useToolsButton') {
     show_message("Tool 1: 3 | Tool 2: 12 | Tool 3: 4");
+}
+
+//Profile Screen
+if (other.uiControlName = 'ui_button_editStat') {
+    room_goto(22);
 }
 
 
